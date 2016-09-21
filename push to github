@@ -1,0 +1,13 @@
+//create new repo and push new repo
+echo "# aaaa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/psibal/karma-junction-09182016.git
+git push -u origin master
+
+
+//updating files
+git add * -f
+git commit -m "first commit"
+git push -u origin master
