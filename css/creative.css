@@ -263,9 +263,21 @@ header .header-content .header-content-inner p {
     }
 }
 
-.section-heading {
-    margin-top: 10px;
+
+.address {
+    color: #D0A601;
+    margin: 15px 0 15px 0;
     text-align: center;
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+
+.section-heading {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
 }
 
 
@@ -748,28 +760,14 @@ footer span.copyright {
   .panel-heading {
       color: #fff !important;
       background-color: #D0A601 !important;
-      padding: 25px;
+      padding: 15px;
       border-bottom: 1px solid transparent;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
+      border-radius: 0px;
+      font-size: 1.5em;
   }
   .panel-footer {
       background-color: white !important;
   }
- /* .panel-footer h3 {
-      font-size: 32px;
-  }
-  .panel-footer h4 {
-      color: #aaa;
-      font-size: 14px;
-  }
-  .panel-footer .btn {
-      margin: 15px 0;
-      background-color: #f4511e;
-      color: #fff;
-  }*/
 
 
 /* Events*/
