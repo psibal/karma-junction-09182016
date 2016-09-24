@@ -847,7 +847,7 @@ section#event{
 
 .carousel img {
     width: 100%;
-/*    margin: auto;*/
+    margin: 20px 0 0 0;
 }
 
 .row {
