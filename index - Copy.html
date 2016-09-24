@@ -10,8 +10,8 @@
     <title>Karma Junction</title>
 
     <!-- Bootstrap Core CSS -->
-<!--    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -35,7 +35,7 @@
 
 <body id="page-top">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -44,6 +44,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <!--
+                <a class="navbar-brand page-scroll" href="#page-top"> 
+                    Karma Junction
+                </a> 
+-->
                 <a class="navbar-brand" href="#home"><img src="img/logo4.png" alt="Karma Junction"> </a>
             </div>
 
@@ -73,35 +78,33 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
     <section id="home">
-        <div class="container">
-               <div class="c-wrapper">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"> </li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"> </li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"> </li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="img/upload/bannerImages/1427761690_DSC_8424_updated.jpg" alt="First slide" />
-                            </div>
-                            <div class="item">
-                                <img src="img/upload/bannerImages/1455577518_MJ_4_1.jpg" alt="Second slide" />
-                            </div>
-                            <div class="item">
-                                <img src="img/upload/bannerImages/1455580474_Trycycle_1.jpg" alt="Third slide" />
-                            </div>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">-->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"> </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"> </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"> </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/upload/bannerImages/1427761690_DSC_8424_updated.jpg" alt="First slide" />
                         </div>
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <div class="item">
+                            <img src="img/upload/bannerImages/1455577518_MJ_4_1.jpg" alt="Second slide" />
+                        </div>
+                        <div class="item">
+                            <img src="img/upload/bannerImages/1455580474_Trycycle_1.jpg" alt="Third slide" />
+                        </div>
                     </div>
-            </div>
-        </div>  
-        <div class="container">     
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <h2 class="section-heading">Karma Junction</h2>
@@ -112,11 +115,15 @@
                             <div class="col-sm-6"><p>It has been organized to meet individuals' basic needs of food, education, medical, housing and sanitation to bring a positive change in their lives that enables them to be self-sufficient and productive members of society.</p></div>
                             </div>
                     </div>
+
                 </div>
+
+                <!--</div>-->
+            </div>
         </div>
     </section>
     <section id="work">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Work</h2>
@@ -124,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <h3 class="text-center">Why we are</h3>
@@ -137,8 +144,6 @@
                     <p><span class="bold-orange">Karma Junction</span> is funded primarily by private foundation, as well as contributions from individuals, local businesses, and other charitable organizations. We also receive funding from various fundraisers, such as charity dinners and banquets, community outreach fairs, etc. In the near term, we will also sell branded items like, coffee mugs, apparel, calendars, etc. to increase awareness of our charitable efforts as well as raise funds to support organization’s operating expenses.</p>
                 </div>
             </div>
-        </div>
-        <div class="container">    
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Completed Projects</h3>
@@ -242,7 +247,7 @@
     </section>
 
     <section id="team">
-       <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Founders and Directors</h2>
@@ -250,26 +255,26 @@
                 </div>
             </div>
         </div>
-        <div class="container founders">
+        <div class="container-fluid founders">
             <div class="row team">
                 <!-- Team Member-->
                 <div class="col-md-6">
-                        <div class="row h3">
-                            <div>Prashant J Patel, Founder & CEO</div>
+                    <div class="row h3">
+                        <div>Prashant J Patel, Founder & CEO</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/upload/memdirImages/a.png" class="team1-img">
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img src="img/upload/memdirImages/a.png" class="team1-img">
-                            </div>
-                            <div class="col-md-12">
-                                <blockquote>
-                                    Prashant Patel - founder & CEO of Karma Junction, born to simple minded parents who implanted humbleness, family values, strong work ethics, compassion for others, and hard work into his character. Prashant is married to Manisha (another co-founder of Karma Junction) and together have two beautiful children. Compassion for others, led Prashant to help many people within his family and friends. The nature of help ranges from counselling on social matters to guidance in financial, education and job related matters. He has also mentored many people in the IT field, and helped them land on a job as well. Prashant’s fuel to work selflessly comes from the smile on the face of the people who’s life has changed for the better, with his help.
+                        <div class="col-md-12">
+                            <blockquote>
+                                Prashant Patel - founder & CEO of Karma Junction, born to simple minded parents who implanted humbleness, family values, strong work ethics, compassion for others, and hard work into his character. Prashant is married to Manisha (another co-founder of Karma Junction) and together have two beautiful children. Compassion for others, led Prashant to help many people within his family and friends. The nature of help ranges from counselling on social matters to guidance in financial, education and job related matters. He has also mentored many people in the IT field, and helped them land on a job as well. Prashant’s fuel to work selflessly comes from the smile on the face of the people who’s life has changed for the better, with his help.
 
-                                    In form of compensation he request’s that the people whose life he touched continues to help other less fortunate.
-                                    <hr class="testimonials-hr">
-                                </blockquote>
-                            </div>
+                                In form of compensation he request’s that the people whose life he touched continues to help other less fortunate.
+                                <hr class="testimonials-hr">
+                            </blockquote>
                         </div>
+                    </div>
                 </div>
                 <!-- Team Member-->
                 <!-- Team Member-->
@@ -336,15 +341,16 @@
             </div>
         </div>
            <!-- Staff & Volunteers-->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Staff & Volunteers</h2>
-                    <hr class="primary">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Staff & Volunteers</h2>
+                        <hr class="primary">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container volunteer">
+            
+            <div class="container-fluid volunteer">
                 <div class="row">
                     <div class="col-lg-2 col-sm-6 col-md-3">
                        <div class="volunteer-box">
@@ -415,19 +421,21 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
                     <hr class="primary">
                 </div>
             </div>
-             <div class="row">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="section-heading">Send us a message.</h3>
                 </div>
             </div>
-            <div class="row ">
+            <div class="row">
                 <div class="col-lg-12">
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
@@ -486,23 +494,23 @@
                         </li>
                     </ul>
                 </div>
+
             </div>
+        </div>
     </section>
 
     <!-- Events Section -->
     <section id="event">
-       <div class="container">
-            <div class="row ">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Events</h2>
-                    <hr class="primary">
-                </div>
-                <div class="col-lg-12 text-center">
-                    <p>Your financial gifts go directly to help men, women and children when they need it the most.</p>
-                </div>
+        <div class="row container-fluid">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Events</h2>
+                <hr class="primary">
+            </div>
+            <div class="col-lg-12 text-center">
+                <p>Your financial gifts go directly to help men, women and children when they need it the most.</p>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row slideanim">
                 <div class="col-lg-2 col-md-6 text-center">
                     <div class="event-box">
@@ -552,7 +560,7 @@
     </section>
     <!-- Donate Section -->
     <section id="donate">
-        <div id="pricing" class="container">
+        <div id="pricing" class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Donate</h2>
@@ -622,20 +630,22 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center container">
-                    <p>Tax receipts will be mailed within four to six weeks after the donation has been processed.</p>
-                    <p>You can contact us at team@KarmaJunction.org </p>
-                    <p>Karma Junction is a 501 (C)(3) organization EIN:47-3386954</p>
+        </div>
 
-                </div>
+        <div class="row">
+            <div class="col-lg-12 text-center container-fluid">
+
+                <p>Tax receipts will be mailed within four to six weeks after the donation has been processed.</p>
+                <p>You can contact us at team@KarmaJunction.org </p>
+                <p>Karma Junction is a 501 (C)(3) organization EIN:47-3386954</p>
+
             </div>
         </div>
     </section>
 
 
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; Karma Junction 2016</span>
@@ -669,9 +679,8 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-<!--    <script src="js/bootstrap.min.js"></script>-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+    <script src="js/bootstrap.min.js"></script>
+
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
